@@ -1,0 +1,27 @@
+/* Blog Theme - Clean & Professional */
+.theme-blog h1 { color: #1e40af; border-bottom: 3px solid #3b82f6; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+.theme-blog h2 { color: #1e293b; }
+.theme-blog h3 { color: #374151; }
+.theme-blog blockquote { 
+    border-left: 4px solid #3b82f6; 
+    padding-left: 1.5rem; 
+    margin: 1.5rem 0; 
+    font-style: italic; 
+    background: #eff6ff;
+    color: #1e40af;
+}
+.theme-blog code { background: #f8fafc; padding: 0.2em 0.4em; border-radius: 4px; color: #dc2626; }
+.theme-blog pre { background: #1e293b; color: #f8faf2; padding: 1rem; border-radius: 8px; overflow-x: auto; }
+
+/* Portfolio Theme - Gradient & Modern */
+.theme-portfolio { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+.theme-portfolio h1, .theme-portfolio h2 { text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+.theme-portfolio blockquote { border-left-color: rgba(255,255,255,0.3); background: rgba(255,255,255,0.1); }
+.theme-portfolio code { background: rgba(255,255,255,0.2); color: white; }
+
+/* Docs Theme - Technical & Clean */
+.theme-docs h1 { color: #dc2626; }
+.theme-docs h2 { color: #ea580c; }
+.theme-docs h3 { color: #059669; }
+.theme-docs pre { background: #1e1e1e !important; color: #f8f8f2 !important; }
+.theme-docs .toc { background: #f3f4f6; padding: 1rem; border-radius: 8px; margin-top: 1rem; }
