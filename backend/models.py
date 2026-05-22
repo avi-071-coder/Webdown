@@ -84,14 +84,13 @@ class ProjectManager:
         except:
             pass
     
-    def create(self, name, content, theme):
+    def create(self, name, content):
         pid = f"p{len(self.projects)}_{int(datetime.now().timestamp())}"
         self.projects[pid] = {
             'id': pid,
             'name': name,
             'content': content,
             'preview_html': '',  # Will be populated when preview is generated
-            'theme': theme,
             'created': datetime.now().isoformat()
         }
         self.save()

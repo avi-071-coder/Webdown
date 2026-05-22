@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdown</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="themes.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Webdown</h1>
-            <p>Markdown → Beautiful Web Pages</p>
+            <p>Write normally → Beautiful Web Pages</p>
             <div class="header-actions">
                 <button id="newBtn">New</button>
                 <button id="saveBtn">Save</button>
@@ -26,15 +25,8 @@
                     <h3>Projects</h3>
                     <div id="projectList">Loading...</div>
                 </div>
-                <div class="themes">
-                    <h4>Theme</h4>
-                    <button class="theme-btn active" data-theme="blog">Blog</button>
-                    <button class="theme-btn" data-theme="portfolio">Portfolio</button>
-                    <button class="theme-btn" data-theme="docs">Docs</button>
-                </div>
                 <div class="stats">
-                    <!-- ✅ CHANGED: Total Time + Total Words ONLY -->
-                    <div>Total Time: <span id="readTime">0 min</span></div>
+                    <div>Writing Time: <span id="readTime">0s</span></div>
                     <div>Total Words: <span id="words">0</span></div>
                 </div>
             </div>
@@ -42,10 +34,10 @@
             <div class="editor-preview">
                 <div class="editor">
                     <div class="editor-header">
-                        <h3>Markdown</h3>
-                        <!-- ✅ ANALYZE BUTTON REMOVED -->
+                        <h3>Draft / Notes</h3>
+                        <button id="aiGenerateBtn" class="ai-btn">✨ Beautify Page</button>
                     </div>
-                    <textarea id="editor">Write markdown here...</textarea>
+                    <textarea id="editor">Write normally here...</textarea>
                 </div>
                 <div class="preview">
                     <h3>Preview</h3>
