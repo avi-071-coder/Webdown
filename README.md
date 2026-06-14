@@ -35,12 +35,10 @@ python app.py
 Open a **second terminal window**:
 ```bash
 cd frontend
-python -m http.server 8080
 ```
 
 **3. Start Writing!**
 Open your web browser and navigate to:
-**[http://localhost:8080](http://localhost:8080)**
 
 ---
 
